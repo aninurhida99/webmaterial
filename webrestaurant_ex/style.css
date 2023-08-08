@@ -1,0 +1,73 @@
+header{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-image: url(https://raw.githubusercontent.com/aninurhida99/webmaterial/main/assets/image/bg01.jpg);
+}
+.navbar{
+    width: 100%;
+    background-color: #3d2603;
+    height: 60px;
+    top:0;
+    left: 0;
+    position:fixed;
+}
+.navbar li{
+    list-style: none;
+    font-size: 20px;
+    padding: 5px 20px;
+    float: left;
+    /* display: inline-block; */
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    background-color: #9e5d20;
+    padding: 10px 20px;
+}
+header h1{
+    text-align: center;
+    color: rgb(255, 240, 27);
+    font-size: 65px;
+    padding-top: 50px;
+}
+.container{
+    width: 90%;
+    padding: 10px 15px;
+    margin: 0px auto;
+}
+.contents{
+    background-color: #f3eae1;
+    height: 500px;
+}
+.maintitle{
+    text-align: center;
+    color: #3d2603;
+    font-family: 'Trebuchet MS';
+    font-size: 35px;
+    padding: 0px 0px 20px 0px;
+}
+.content-item{
+    width: 21%;
+    float: left;
+    /* margin-right: 27px; */
+    margin: 15px 25px 0px 22px;
+    border: #3d2603 solid 1px;
+    text-align: center;
+    background-color: #9e5d20;
+}
+.content-item img{
+    width: 100%;
+}
+.content-item p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS';
+    color: whitesmoke;
+}
+.booking{
+    background-color: #f9f4ef;
+    padding: 15px;
+}
